@@ -1,3 +1,4 @@
+#!/bin/bash
 cd $(dirname "$0")
 systemctl --user daemon-reload
 sudo apt update
